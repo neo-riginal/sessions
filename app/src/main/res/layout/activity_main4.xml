@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="23dp"
+            app:srcCompat="@drawable/rafiki2" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="297dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="50dp"
+            android:text="Real-time Tracking"
+            android:textAlignment="center"
+            android:textColor="#0560FA"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Track your packages/items from the comfort of your home till final destination"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:layout_weight="1"
+            android:backgroundTint="#0560FA"
+            android:onClick="onClickSignIn"
+            android:text="Sign up"
+            android:textColorLink="#FFFFFF"
+            app:cornerRadius="4.96dp"
+            app:strokeColor="#0560FA"
+            app:strokeWidth="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Already have an account?"
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:paddingRight="0dp"
+                android:layout_marginLeft="110dp"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginRight="90dp"
+                android:layout_weight="1"
+                android:paddingLeft="-2dp"
+                android:backgroundTint="@color/no"
+                android:text="Sign in"
+                android:textColor="#0560FA"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
